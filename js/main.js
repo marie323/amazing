@@ -1,6 +1,6 @@
 jQuery(document).ready(function( $ ) {
 
-  var l = new URL(window.location)
+  /*var l = new URL(window.location)
   console.debug(l.hostname)
   console.debug(l.pathname)
   var params = l.searchParams.get("name")
@@ -37,7 +37,7 @@ jQuery(document).ready(function( $ ) {
         window.URL.revokeObjectURL(url);
     })
     .catch((e) => console.debug(e))
-  })
+  })*/
   // Smooth scroll for the menu and links with .scrollto classes
   $('.smoothscroll').on('click', function(e) {
     e.preventDefault();
